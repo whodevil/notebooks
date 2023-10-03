@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = ""
+authors = ["whodevil <whodevil@offthecob.info>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+langchain = "^0.0.306"
+chatgpt = "^2.2212.0"
+plotly = "^5.17.0"
+numpy = "^1.26.0"
+pandas = "^2.1.1"
+requests = "^2.31.0"
+tiktoken = "^0.5.1"
+bs4 = "^0.0.1"
+ipykernel = "^6.25.2"
+jupyter = "^1.0.0"
+huggingface-hub = "^0.17.3"
+pinecone-client = "^2.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
