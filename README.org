@@ -1,2 +1,14 @@
 #+title: Notebooks
 A place for taking notes and exploring.
+
+* Installing the notebooks conda environment
+** Make sure miniconda is installed
+#+begin_src shell
+pyenv install `cat .python-version`
+pyenv local `cat .python-version`
+#+end_src
+** Install the conda environment
+#+begin_src shell
+conda env create -f environment.yaml
+#+end_src
+
